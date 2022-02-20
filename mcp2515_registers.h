@@ -1,5 +1,4 @@
 
-
 /*
                                                      
  ______   ______   ________   ______       ______   ________  __  __      
@@ -12,11 +11,17 @@
       
                              CODE By Carlos Almagro             
 
-/*
+*/
 
 #ifndef MCP2515_REGISTERS_H
 #define MCP2515_REGISTERS_H 
 
+
+//CAN CONTROLLER SPEEDS
+
+#define CANSPEED_125 7 // 125 kbps
+#define CANSPEED_250 3 // 250 kbps
+#define CANSPEED_500 1 // 500 kbps
 
 
 //CAN CONTROLER REGISTER MAP
@@ -162,3 +167,4 @@
     LOAD TX BUFFER          0100 0abc
 
 */
+#endif
